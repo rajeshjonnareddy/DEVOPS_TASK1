@@ -1,0 +1,42 @@
+JENKINS USER COMMANDS
+   21 ssh-keygen
+   22  cd /etc/
+   23  ls
+   24  cd ssh/
+   25  ls
+   26  nano ssh_config
+   27  nano sshd_config
+   28  sudo nano sshd_config
+   29  systemctl restart sshd
+   30  java -version
+   31  echo $PATH
+   32  echo $JAVA_HOME
+   33  cd /
+   34  cd usr
+   35  cd lib
+   36  ls
+   37  cd jvm
+   38  ls
+   39  cd java-1
+   40  cd java-1.8.0-openjdk-amd64
+   41  ls
+   42  cd pwd
+   43  ls
+   44  pwd
+   45  cd /
+   46  sudo nano ~/.bashrc
+   47  cd /
+   48  sudo nano ~/.bashrc
+   49  cd ~
+   50  ls -la
+   51  ls -la
+   52  sudo nano ~/.bashrc
+   53  source ~/.bashrc
+   54  echo $PATH
+   55  echo $JAVA_HOME
+   56  cd /var/lib/jenkins/.ssh/
+   57  ls
+   58  ssh-copy-id jenkins@18.191.145.193
+   59  ssh jenkins@18.191.145.193
+   60  nano id_rsa
+   61  cat id_rsa

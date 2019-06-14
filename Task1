@@ -1,0 +1,91 @@
+1  exit
+    2  ssh-keygen
+    3  ssh-copy-id ubuntu@3.14.244.64
+    4  sudo apt-get update && sudo apt-get upgrade
+    5  cd .ssh
+    6  ls
+    7  ssh-copy-id ubuntu@3.14.244.64
+    8  sudo passwd
+    9  whoami
+   10  uname
+   11  cd ..
+   12  cd .ssh
+   13  ls
+   14  ssh-copy-id ubuntu@3.14.244.64
+   15  cd ..
+   16  sudo service ssh start
+   17  sudo service ssh status
+   18  sudo su
+   19  ssh-copy-id -i ubuntu@3.14.244.64
+   20  sudo ssh-copy-id -i ubuntu@3.14.244.64
+   21  cd .ssh
+   22  cdssh
+   23  ls
+   24  cat id_rsa.pub
+   25  sudo nano authorized_keys
+   26  sudo service ssh restart
+   27  cd ..
+   28  sudo ssh-copy-id -i ubuntu@3.14.244.64
+   29  ssh ubuntu@3.14.244.64
+   30  sudo apt-get update && sudo service apt-get upgrade && sudo 
+apt-get dist-upgrade
+   31  sudo apt-get update && sudo apt-get upgrade && sudo apt-get 
+dist-upgrade
+   32  ssh ubuntu@3.14.244.64
+   33  clear
+   34  sudo apt-apt install openjdk-8-jre-headless
+   35  sudo apt-get install openjdk-8-jre-headless
+   36  java -version
+   37  cd /usr/lib
+   38  ls
+   39  cd jvm
+   40  cd java-1.8.0-openjdk-amd64
+   41  ls
+   42  pwd
+   43  cd /
+   44  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo 
+apt-key add -
+   45  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ 
+> /etc/apt/sources.list.d/jenkins.list'
+   46  sudo apt-get upddate
+   47  sudo apt-get update
+   48  sudo apt-get install jenkins
+   49  sudo service jenkins start
+   50  sudo service jenkins status
+   51  sudo apt-get purge jenkin*
+   52  sudo service jenkins start
+   53  sudo upatedb
+   54  sudo updatedb
+   55  locate jenkins
+   56  cat etc/passw
+   57  cat etc/passwd
+   58  sudo service jenkins start
+   59  echo $JAVA_HOME
+   60  java -version
+   61  echo $PATH
+   62  cd /usr/lib
+   63  ls
+   64  cd jvm
+   65  ls
+   66  cd java-1.8.0-openjdk-amd64
+   67  ls
+   68  cd bin
+   69  pwd
+   70  cd /
+   71  sudo nano ~/.bashrc
+   72  source ~/.bashrc
+   73  java -version
+   74  echo $PATH
+   75  echo $JAVA_HOME
+   76  echo $PATH
+   77  echo $JAVA_HOME
+   78  javac
+   79  java
+   80  clear
+   81  cd /var/lib/jenkins/.ssh/
+   82  sudo cat /etc/passwd
+   83  clear
+   84  cat /etc/passwd
+   85  sudo su -
+   86  su jenkins
+   87  history
